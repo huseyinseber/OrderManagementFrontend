@@ -93,7 +93,7 @@ class ApiService {
         
         console.log('✅ Aktif siparişler:', activeOrders.length);
         return activeOrders;
-    }
+    } 
 
     // SADECE İNAKTİF siparişleri getir (isActive=false olanlar)
     static async getInactiveOrders() {
